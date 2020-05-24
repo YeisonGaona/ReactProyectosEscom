@@ -1,0 +1,14 @@
+body {
+  
+  background-image: "#DDE8E7";
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.blanco-rojo {
+  color: #FFFFFF;
+  background-color: red;
+}
+
+

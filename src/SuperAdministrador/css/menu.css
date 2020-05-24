@@ -1,0 +1,63 @@
+body {
+  
+  background-color:#EAF2F2;
+  /*background-color:#FFFFFF;*/
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.activo {
+  color: black;
+  background-color: #01BB23;
+}
+
+.suspendido {
+  color: black;
+  background-color: #F91A32;
+}
+
+.titulo{
+  padding-left: 13px; 
+}
+ 
+#sidebar-wrapper { 
+ 
+    z-index: 1000; 
+ 
+    position: fixed; 
+ 
+    left: 210px; 
+ 
+    width: 0; 
+ 
+    height: 100%; 
+ 
+    margin-left: -230px; 
+ 
+    overflow-y: auto; 
+ 
+    background: #000; 
+ 
+   
+} 
+ 
+
+ 
+@media(min-width:400px) { 
+ 
+    #wrapper { 
+    /* ajuste de contenido */
+    padding-left: 190px; 
+      padding-top: 76px;
+    } 
+ 
+  
+  /*ajuste menu lateral*/
+    #sidebar-wrapper { 
+ 
+    width: 210px; 
+ 
+    } 
+ 
+}
